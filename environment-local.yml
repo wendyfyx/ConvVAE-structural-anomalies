@@ -1,0 +1,24 @@
+name: fibernet-local
+channels:
+- pytorch
+- conda-forge
+- defaults
+dependencies:
+- python=3.9
+- pytorch::pytorch
+- jupyter
+- scikit-learn
+- scipy
+- seaborn
+- matplotlib
+- plotly
+- tqdm
+- dipy
+- fury
+- tensorboard
+- torchvision
+- openpyxl
+- pot
+- umap-learn
+- scikit-bio
+- torchinfo

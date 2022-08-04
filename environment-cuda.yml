@@ -1,0 +1,25 @@
+name: dl
+channels:
+- nvidia
+- pytorch
+- conda-forge
+- defaults
+dependencies:
+- nvidia::cudatoolkit=11.3
+- python=3.9
+- pytorch::pytorch
+- jupyter
+- scikit-learn
+- scipy
+- seaborn
+- matplotlib
+- plotly
+- tqdm
+- dipy
+- fury
+- tensorboard
+- torchvision
+- openpyxl
+- pot
+- umap-learn
+- scikit-bio
